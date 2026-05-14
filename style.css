@@ -1613,3 +1613,39 @@ td {
         padding: 30px 20px;
     }
 }
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+   
+    .app-card {
+        min-width: 280px !important;
+        flex: 0 0 280px !important;
+    }
+
+    .testimonial-card-item {
+        flex: 0 0 280px !important;
+    }
+
+    .container {
+        padding: 0 15px !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+   
+    .table-container {
+        overflow-x: auto !important;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    table {
+        min-width: 500px; /* Allows table to scroll inside container instead of breaking layout */
+    }
+}
+
